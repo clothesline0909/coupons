@@ -26,11 +26,29 @@ body {
   cursor: default;
 }
 
+.promo-code-container {
+  background-color: white;
+  width: 570px;
+  height: 90px;
+  margin: 160px auto 0 auto;
+  text-align: center;
+  border-radius: 45px;
+}
+
+.promo-code {
+  line-height: 85px;
+  color: #1DA4A6;
+}
+
+.code {
+  color: black;
+}
+
 .link-container {
   background-color: white;
   width: 300px;
   height: 90px;
-  margin: 200px auto 0 auto;
+  margin: 40px auto 0 auto;
   text-align: center;
   border-radius: 45px;
   cursor: pointer;
