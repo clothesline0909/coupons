@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'arcon-regular';
+  src: url(arcon-regular.otf);
+}
+
+html * {
+  font-family: 'arcon-regular';
+  font-size: 41px;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content {
+  background-color: #1DA4A6;
+  height: 1000px;
+  overflow: auto;
+}
+
+.heading {
+  margin: 100px auto 0 auto;
+  width: 600px;
+  text-align: center;
+  font-size: 49px;
+  color: white;
+  cursor: default;
+}
+
+.link-container {
+  background-color: white;
+  width: 950px;
+  height: 90px;
+  margin: 200px auto 0 auto;
+  text-align: center;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.link-container:hover {
+  background-color: #602D6C;    // 684E68
+}
+
+.link-container:hover .link {
+  color: white;
+}
+
+.link {
+  line-height: 85px;
+  color: #1DA4A6;
+  transition: color 0.2s ease;
+  text-decoration: none
+}
